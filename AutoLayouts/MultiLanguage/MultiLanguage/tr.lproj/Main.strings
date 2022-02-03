@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "Hello"; ObjectID = "F2W-qB-Twv"; */
+"F2W-qB-Twv.text" = "Merhaba";
+
+/* Class = "UIButton"; configuration.title = "English"; ObjectID = "eqi-lD-LrI"; */
+"eqi-lD-LrI.configuration.title" = "İngilizce";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "eqi-lD-LrI"; */
+"eqi-lD-LrI.normalTitle" = "Button";
