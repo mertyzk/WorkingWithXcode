@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,23 +13,23 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Recipes" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yemekresim" translatesAutoresizingMaskIntoConstraints="NO" id="Xhl-61-wSR">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="275"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="275"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="275" id="wnS-7e-0bB"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Köfte Izgara" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kul-6F-fbk">
-                                <rect key="frame" x="16" y="283" width="343" height="23"/>
+                                <rect key="frame" x="16" y="283" width="288" height="23"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Egx-mj-WDQ">
-                                <rect key="frame" x="16" y="600.5" width="343" height="46.5"/>
+                                <rect key="frame" x="16" y="508" width="288" height="40"/>
                                 <color key="backgroundColor" red="0.0016600872839999999" green="0.51473721589999999" blue="0.078723003200000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Sonraki Tarif">
@@ -37,14 +37,14 @@
                                 </buttonConfiguration>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="TKy-yB-Ym2">
-                                <rect key="frame" x="16" y="314" width="343" height="266.5"/>
+                                <rect key="frame" x="16" y="314" width="288" height="174"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">- Soğan ve sarımsak rendelenir, maydanoz incecik kıyılır.
+                                <string key="text">- Soğan ve sarımsak rendelenir, maydanoz incecik kıyılır.
 - Diğer malzemelerde ilave edilerek güzelce yoğurulur.
 - En az 5 dk. kadar yoğurmanızı tavsiye ederim.
 - Izgara köftede ekmek, yumurta ve maydanoz kullanmayı tercih etmeyenler olabilir, ancak bu tarif ile son derece lezzetli köfteler elde edebilirsiniz.
 - Harcı hazırladıktan sonra şekil vererek vaktiniz var ise 2 saat kadar buzdolabında dinlendirin.
-Daha sonra ızgarada pişirerek afiyetle yiyebilirsiniz.</mutableString>
+Daha sonra ızgarada pişirerek afiyetle yiyebilirsiniz.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
