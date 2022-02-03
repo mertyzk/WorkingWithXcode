@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina3_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Inspiring" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stevejobs" translatesAutoresizingMaskIntoConstraints="NO" id="uOz-64-Lqn">
+                                <rect key="frame" x="110" y="45" width="100" height="72.5"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Steve Jobs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fbm-v7-6JL">
+                                <rect key="frame" x="110" y="137.5" width="100" height="23"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <color key="textColor" systemColor="systemRedColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dünyayı değiştirebileceğini düşünecek kadar çılgın olan insanlar, dünyayı değiştirebilirler." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uUI-Kf-xF9">
+                                <rect key="frame" x="5" y="219.5" width="310" height="41"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JsE-1P-elw">
+                                <rect key="frame" x="10" y="436.5" width="300" height="33.5"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button">
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="uUI-Kf-xF9" firstAttribute="top" secondItem="fbm-v7-6JL" secondAttribute="bottom" constant="59" id="0OO-PK-jIA"/>
+                            <constraint firstItem="JsE-1P-elw" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.07" id="1B8-PX-ipb"/>
+                            <constraint firstItem="uUI-Kf-xF9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="5" id="2UZ-PH-jau"/>
+                            <constraint firstItem="JsE-1P-elw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="6eY-JA-Okw"/>
+                            <constraint firstItem="uUI-Kf-xF9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8MG-Rw-Lai"/>
+                            <constraint firstItem="uOz-64-Lqn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8vh-br-3UT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JsE-1P-elw" secondAttribute="trailing" constant="10" id="Ajc-z3-KTF"/>
+                            <constraint firstAttribute="trailing" secondItem="uUI-Kf-xF9" secondAttribute="trailing" constant="5" id="FFY-Ew-zVY"/>
+                            <constraint firstItem="uUI-Kf-xF9" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="JB3-Ty-Aa5"/>
+                            <constraint firstItem="fbm-v7-6JL" firstAttribute="top" secondItem="uOz-64-Lqn" secondAttribute="bottom" constant="20" id="R9a-9c-vXN"/>
+                            <constraint firstItem="fbm-v7-6JL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SUW-XT-acS"/>
+                            <constraint firstItem="uOz-64-Lqn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="45" id="kZl-zl-moF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="JsE-1P-elw" secondAttribute="bottom" constant="10" id="ngD-zL-vrC"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="30" y="84"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="stevejobs" width="100" height="100"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
